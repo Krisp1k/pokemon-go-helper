@@ -1,0 +1,28 @@
+{
+    "Nav": [
+        {
+            "Name": "Home",
+            "Slug": "/",
+            "Component": "Index",
+            "Order": 0
+        },
+        {
+            "Name": "Pokemon List",
+            "Slug": "/list",
+            "Component": "PokemonList",
+            "Order": 1
+        },
+        {
+            "Name": "Pokemon Detail",
+            "Slug": "/detail",
+            "Component": "PokemonDetail",
+            "Order": 2
+        },
+        {
+            "Name": "Combat Effectivnes",
+            "Slug": "/combat-effectivness",
+            "Component": "CombatEffectivness",
+            "Order": 3
+        }
+    ]
+}

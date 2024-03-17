@@ -12,6 +12,7 @@ export default function CombatEffectivness() {
         axios.get("https://pogoapi.net/api/v1/type_effectiveness.json")
         .then((response) => {
             setData(response.data)
+            console.log("Fetched: ", response.data)
         })
         .catch((error) => {
             console.log(error)
@@ -75,9 +76,9 @@ export default function CombatEffectivness() {
                         <thead>
                             <tr>
                                 <th scope="col" colSpan={2}>Icon</th>
-                                <th scope="col">Counter</th>
+                                <th scope="col">Counter Type</th>
                                 <th scope="col">Value</th>
-                                <th scope="col">Label</th>
+                                <th scope="col">Effectivness</th>
                             </tr>
                         </thead>
                         <tbody>
